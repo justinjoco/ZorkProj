@@ -6,7 +6,7 @@ using namespace std;
 
 Creature::Creature(xml_node<> *creature) {}
 
-Creature::~Creature() {}
+Creature::~Creature() { }
 
 void Creature::createCreature(xml_node<> *creature){
 	for(xml_node<> *childcreature = creature->first_node(); childcreature; childcreature = childcreature->next_sibling()){

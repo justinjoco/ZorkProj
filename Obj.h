@@ -1,6 +1,5 @@
 #ifndef OBJ_H_
 #define OBJ_H_
-//#include "rapidxml_iterators.hpp"
 #include "rapidxml_print.hpp"
 #include "rapidxml_utils.hpp"
 #include "rapidxml.hpp"
@@ -11,9 +10,9 @@ using namespace std;
 
 class Obj {
 public:
-	Obj(xml_node<> *);
+	Obj(xml_node<> *node);
 	virtual ~Obj();
-	virtual void createSeperateXml(xml_node<> *, stack<xml_node<> *>&, stack<xml_node<> *>&, stack<xml_node<> *>&, stack<xml_node<> *>&);
+	void createSeperateXml(xml_node<> *, stack<xml_node<> *>&, stack<xml_node<> *>&, stack<xml_node<> *>&, stack<xml_node<> *>&);
 
 	xml_node<> *node;
 	stack<xml_node<> *>& xml_room;

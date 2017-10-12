@@ -17,7 +17,7 @@ public:
 	map<string,string> vulnerability;
 	string attack;
 
-    virtual void createCreature(xml_node<> *);
+	void createCreature(xml_node<> *);
 };
 
 #endif /* CREATURE_H_ */

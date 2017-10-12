@@ -20,8 +20,8 @@ public:
 	map<string,string> item;
 	map<string,string> creature;
 
-	virtual void createRoom(xml_node<> *);
-	virtual void createBorder(xml_node<> *);
+	void createRoom(xml_node<> *);
+	void createBorder(xml_node<> *);
 };
 
 #endif /* ROOM_H_ */

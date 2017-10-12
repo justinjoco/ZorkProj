@@ -1,12 +1,4 @@
-/*
- * Obj.cpp
- *
- *  Created on: Oct 9, 2017
- *      Author: snayha
- */
-
 #include "Obj.h"
-//#include "rapidxml_iterators.hpp"
 #include "rapidxml_print.hpp"
 #include "rapidxml_utils.hpp"
 #include "rapidxml.hpp"
@@ -17,12 +9,13 @@ using namespace rapidxml;
 using namespace std;
 
 Obj::Obj(xml_node<> *node) {
-	// TODO Auto-generated constructor stub
+//	stack<xml_node<> *>& xml_room;
+//	stack<xml_node<> *>& xml_item;
+//	stack<xml_node<> *>& xml_container;
+//	stack<xml_node<> *>& xml_creature;
 }
 
-Obj::~Obj() {
-	// TODO Auto-generated destructor stub
-}
+Obj::~Obj() {}
 
 void Obj::createSeperateXml(xml_node<> *node, stack<xml_node<> *>& xml_room, stack<xml_node<> *>& xml_item, stack<xml_node<> *>& xml_container, stack<xml_node<> *>& xml_creature){
 	while(node != NULL){

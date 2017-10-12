@@ -17,7 +17,7 @@ public:
 	map<string,string> trigger;
 	bool turnon;
 
-	void createItem(xml_node<> *);
+	virtual void createItem(xml_node<> *);
 };
 
 #endif /* ITEM_H_ */

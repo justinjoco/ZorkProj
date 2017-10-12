@@ -17,7 +17,7 @@ public:
 	map<string,string> accept;
 	map<string,string> item;
 
-	void createContain(xml_node<> *contain);
+	virtual void createContain(xml_node<> *contain);
 };
 
 #endif /* CONTAIN_H_ */

@@ -13,7 +13,7 @@ class Obj {
 public:
 	Obj(xml_node<> *);
 	virtual ~Obj();
-	void createSeperateXml(xml_node<> *, stack<xml_node<> *>&, stack<xml_node<> *>&, stack<xml_node<> *>&, stack<xml_node<> *>&);
+	virtual void createSeperateXml(xml_node<> *, stack<xml_node<> *>&, stack<xml_node<> *>&, stack<xml_node<> *>&, stack<xml_node<> *>&);
 
 	xml_node<> *node;
 	stack<xml_node<> *>& xml_room;

@@ -10,6 +10,23 @@
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    std::cout << "Hello, World!\n";
+   
+    bool continuePlaying = 1;
+    
+    
+    
+    while (continuePlaying){
+    
+        if (continuePlaying == 0){
+            break;
+        }
+        
+        
+    }
+
+
+
+
     return 0;
+
 }

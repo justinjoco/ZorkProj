@@ -13,6 +13,8 @@
 		2169A6CE1F8E7B07001D1718 /* Obj.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2169A6C11F8E7B07001D1718 /* Obj.cpp */; };
 		2169A6CF1F8E7B07001D1718 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2169A6C71F8E7B07001D1718 /* README.md */; };
 		2169A6D01F8E7B07001D1718 /* Room.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2169A6C81F8E7B07001D1718 /* Room.cpp */; };
+		2169A6D31F8F05E3001D1718 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2169A6D11F8F05E3001D1718 /* Game.cpp */; };
+		21E22EB21F96B54F00CCB12B /* Trigger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21E22EB01F96B54F00CCB12B /* Trigger.cpp */; };
 		21E3E0E91F8E725900254C51 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21E3E0E81F8E725900254C51 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -37,7 +39,6 @@
 		2169A6C01F8E7B07001D1718 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Item.h; path = ../../Item.h; sourceTree = "<group>"; };
 		2169A6C11F8E7B07001D1718 /* Obj.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Obj.cpp; path = ../../Obj.cpp; sourceTree = "<group>"; };
 		2169A6C21F8E7B07001D1718 /* Obj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Obj.h; path = ../../Obj.h; sourceTree = "<group>"; };
-		2169A6C31F8E7B07001D1718 /* rapidxml_iterators.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = rapidxml_iterators.hpp; path = ../../rapidxml_iterators.hpp; sourceTree = "<group>"; };
 		2169A6C41F8E7B07001D1718 /* rapidxml_print.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = rapidxml_print.hpp; path = ../../rapidxml_print.hpp; sourceTree = "<group>"; };
 		2169A6C51F8E7B07001D1718 /* rapidxml_utils.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = rapidxml_utils.hpp; path = ../../rapidxml_utils.hpp; sourceTree = "<group>"; };
 		2169A6C61F8E7B07001D1718 /* rapidxml.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = rapidxml.hpp; path = ../../rapidxml.hpp; sourceTree = "<group>"; };
@@ -45,6 +46,10 @@
 		2169A6C81F8E7B07001D1718 /* Room.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Room.cpp; path = ../../Room.cpp; sourceTree = "<group>"; };
 		2169A6C91F8E7B07001D1718 /* Room.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Room.h; path = ../../Room.h; sourceTree = "<group>"; };
 		2169A6CA1F8E7B07001D1718 /* xmlfile.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = xmlfile.txt; path = ../../xmlfile.txt; sourceTree = "<group>"; };
+		2169A6D11F8F05E3001D1718 /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		2169A6D21F8F05E3001D1718 /* Game.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Game.hpp; sourceTree = "<group>"; };
+		21E22EB01F96B54F00CCB12B /* Trigger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Trigger.cpp; sourceTree = "<group>"; };
+		21E22EB11F96B54F00CCB12B /* Trigger.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Trigger.hpp; sourceTree = "<group>"; };
 		21E3E0E51F8E725900254C51 /* ZorkProj */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ZorkProj; sourceTree = BUILT_PRODUCTS_DIR; };
 		21E3E0E81F8E725900254C51 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,7 +92,6 @@
 				2169A6C01F8E7B07001D1718 /* Item.h */,
 				2169A6C11F8E7B07001D1718 /* Obj.cpp */,
 				2169A6C21F8E7B07001D1718 /* Obj.h */,
-				2169A6C31F8E7B07001D1718 /* rapidxml_iterators.hpp */,
 				2169A6C41F8E7B07001D1718 /* rapidxml_print.hpp */,
 				2169A6C51F8E7B07001D1718 /* rapidxml_utils.hpp */,
 				2169A6C61F8E7B07001D1718 /* rapidxml.hpp */,
@@ -96,6 +100,10 @@
 				2169A6C91F8E7B07001D1718 /* Room.h */,
 				2169A6CA1F8E7B07001D1718 /* xmlfile.txt */,
 				21E3E0E81F8E725900254C51 /* main.cpp */,
+				2169A6D11F8F05E3001D1718 /* Game.cpp */,
+				2169A6D21F8F05E3001D1718 /* Game.hpp */,
+				21E22EB01F96B54F00CCB12B /* Trigger.cpp */,
+				21E22EB11F96B54F00CCB12B /* Trigger.hpp */,
 			);
 			path = ZorkProj;
 			sourceTree = "<group>";
@@ -158,8 +166,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2169A6CF1F8E7B07001D1718 /* README.md in Sources */,
+				21E22EB21F96B54F00CCB12B /* Trigger.cpp in Sources */,
 				2169A6CD1F8E7B07001D1718 /* Item.cpp in Sources */,
 				2169A6CB1F8E7B07001D1718 /* Contain.cpp in Sources */,
+				2169A6D31F8F05E3001D1718 /* Game.cpp in Sources */,
 				2169A6CE1F8E7B07001D1718 /* Obj.cpp in Sources */,
 				2169A6CC1F8E7B07001D1718 /* Creature.cpp in Sources */,
 				21E3E0E91F8E725900254C51 /* main.cpp in Sources */,

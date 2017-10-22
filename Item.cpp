@@ -4,7 +4,7 @@
 using namespace rapidxml;
 using namespace std;
 
-Item::Item(xml_node<> *item) {}
+Item::Item(xml_node<> *item){}
 
 Item::~Item() {}
 
@@ -23,10 +23,23 @@ void Item::createItem(xml_node<> *item){
 			this->writing = childitem->value();
 		}
 		else if(string(childitem->name()) == string("turnon")){
-			this->turnon = childitem->value();
+			//turnon(node->first_node());
 		}
 		else if(string(childitem->name()) == string("trigger")){
 			this->trigger[childitem->value()] = childitem->value();
 		}
 	}
 }
+
+//void Item::turnon(rapidxml::xml_node<> * turnoninfo){
+//	while (turnonChild != NULL) {
+//			if (turnoninfo->name() == "print") {
+//				this->turnonMessages.push_back(tagValue);
+//			}
+//
+//			if (turnoninfo->value() == "action") {
+//				this->turnonActions.push_back(tagValue);
+//			}
+//			turnoninfo = turnoninfo->next_sibling();
+//		}
+//}

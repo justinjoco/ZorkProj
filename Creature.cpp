@@ -4,7 +4,7 @@
 using namespace rapidxml;
 using namespace std;
 
-Creature::Creature(xml_node<> *creature) {}
+Creature::Creature(xml_node<> *creature){}
 
 Creature::~Creature() { }
 

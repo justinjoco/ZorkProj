@@ -9,10 +9,6 @@ using namespace rapidxml;
 using namespace std;
 
 Obj::Obj(xml_node<> *node) {
-//	stack<xml_node<> *>& xml_room;
-//	stack<xml_node<> *>& xml_item;
-//	stack<xml_node<> *>& xml_container;
-//	stack<xml_node<> *>& xml_creature;
 }
 
 Obj::~Obj() {}

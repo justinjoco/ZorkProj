@@ -4,7 +4,7 @@
 using namespace rapidxml;
 using namespace std;
 
-Contain::Contain(xml_node<> *contain){}
+Contain::Contain(xml_node<> *contain) { }
 
 Contain::~Contain() {}
 

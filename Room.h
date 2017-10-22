@@ -1,6 +1,8 @@
 #ifndef ROOM_H_
 #define ROOM_H_
-#include "Obj.h"
+#include "rapidxml_print.hpp"
+#include "rapidxml_utils.hpp"
+#include "rapidxml.hpp"
 #include <string>
 #include <map>
 using namespace rapidxml;
